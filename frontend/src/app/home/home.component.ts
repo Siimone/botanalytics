@@ -13,7 +13,7 @@ import { ApiService } from '../api.service'
 })
 
 export class HomeComponent implements OnInit {
-  botName = "Coiners_bot"
+  botName = "BOT NAME HERE"
   totalCommands : number
   usersNumbers = "10"
   selectedTab = 0
