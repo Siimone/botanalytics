@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+html, body, .container{ height: 100%; margin: 0; padding: 0; background-color: #fafafa}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.mat-tab-label-container{
+    display: none !important;
+}
+.mat-tab-header{
+    display: none !important;
+}

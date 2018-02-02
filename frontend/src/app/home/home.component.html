@@ -1,0 +1,12 @@
+<mat-tab-group [selectedIndex]="selectedTab" [disableRipple]="true">
+    <mat-tab label="One">
+        <h1>Welcome,<br> {{botName}} has received<br>{{totalCommands}} commands <br>by {{usersNumbers}} different users!</h1>
+        <button mat-raised-button color="primary" (click)="goToStatTab()" title="More stats"><mat-icon>navigate_next</mat-icon></button>
+    </mat-tab>
+    <mat-tab label="Two">
+        <button mat-raised-button color="primary" title="Home" (click)="goToStatTab()"><mat-icon>home</mat-icon></button>
+        <commands-bar-chart></commands-bar-chart>
+        <most-used-commands-pie-chart></most-used-commands-pie-chart>
+        <users-activity></users-activity>
+    </mat-tab>
+</mat-tab-group>

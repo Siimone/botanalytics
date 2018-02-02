@@ -1,0 +1,1 @@
+export var single = [{"name":"/info@coiners_bot","value":90},{"name":"/info","value":57},{"name":"/start","value":19},{"name":"/converti BTG,EUR","value":16},{"name":"/andamento bitcoin","value":5}];
